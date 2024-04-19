@@ -1,1 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seraphim</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <style
+    
+    >
+        body {
+            padding-top: 56px; /* Space for fixed navbar */
+        }
+        .navbar-custom {
+            background-color: rgba(0, 0, 0, 0.4);
+            
+            
+        }
+        .navbar-custom .navbar-brand,
+        .navbar-custom .navbar-nav .nav-link {
+            color: white;
+        }
+        header, .content-section, footer {
+            padding: 2rem 0;
+        }
+        .btn-black {
+    background-color: #000000; /* Full black color */
+    color: #ffffff; /* White text color */
+    /* Add any additional styles as needed */
+}
+        header {
+            
+            background-image: url('3.jpg');
+            background-size: cover;
+            background-position: top;
+            fill-opacity: calc();
+            
+            text-align: center;
+            
+        }
+        .center {
+            text-align: center;
+        }
+        .btn-container {
+    
+    /* Black color */
+    display: flex;
+    justify-content: center;
+}
+        footer {
+            background-color: black;
+        }
+        /* Responsive typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        /* Validation error styling */
+        .was-validated .form-control:invalid {
+            border-color: #dc3545;
+        }
+        .was-validated .form-control:invalid + .invalid-feedback {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav style="background-color: black;" class="navbar navbar-expand-lg navbar-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#" style=" background-color:transparent; 
+            font-size: 24px; /* Adjust font size as needed */
+            font-weight: 700; /* Apply bold font weight */
+            background-color: transparent;
+            text-decoration: none; /">SERAPHIM</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">SERVICES</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Header Section -->
+    <header id="home">
+        <div class="container">
+            <h1 style="color: rgb(250, 249, 246);">Welcome to Seraphim</h1>
+            <p style="color: rgb(250, 249, 246); font-size: large;">Excellence in Services</p>
+        </div>
+        
+    </header>
+
+    <!-- About Section -->
+    <section class="content-section" id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Welcome to SERAPHIM, a mystical bakery where enchanting aromas and delectable delights await you in the most extraordinary locations. Nestled deep within the heart of ancient forests, atop majestic mountains, and even beneath the shimmering waves of the ocean's depths, SERAPHIM is a haven for those seeking culinary wonders beyond imagination.
+
+                Our ethereal bakery is a testament to the magical wonders of the realms, where every pastry, cake, and confection is crafted with love and infused with the essence of nature's enchantments. In our forest abode, surrounded by towering trees and dappled sunlight, we draw inspiration from the whispers of the wind and the songs of woodland creatures to create whimsical treats that captivate the senses.
+                
+                Perched upon soaring peaks, our mountain bakery is a sanctuary of warmth amidst the icy winds, where the scent of freshly baked bread mingles with the crisp mountain air. Here, we harness the raw power of the elements, infusing our creations with the energy of thunderous storms and tranquil sunsets, crafting delicacies that evoke the very essence of the mountains themselves.</p>
+        </div>
+    </section>
+
+   <!-- Services Section -->
+<section class="content-section bg-light" id="services">
+    <div class="container">
+        <h2 class="text-center" style="font-family: 'Segoe UI', sans-serif; color: rgb(52, 49, 49);">SERVICES</h2>
+
+        <div class="row text-center">
+            <!-- Service 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1534432182912-63863115e106?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8QmFrZXJ5JTIwTWFnaWNhbHxlbnwwfDF8MHx8fDA%3D" class="card-img-top" alt="Service 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Fluffy Cloud Cakes</h5>
+                        <p class="card-text">Indulge in the celestial experience of our Fluffy Cloud Cakes, where each bite is a journey through the heavens. Delicately crafted and infused with dreams, these ethereal pancakes embody the essence of pure delight. Light as air and irresistibly soft, they whisk you away on a gust of sweetness, leaving you floating amidst a symphony of flavors.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1606757870492-9fc7cf1e736d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" class="card-img-top" alt="Service 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Oatmeal Raisin Cookies</h5>
+                        <p class="card-text">Savor the comforting nostalgia of our Oatmeal Raisin Cookies, where wholesome oats and plump raisins unite in a symphony of flavor and texture. Each bite is a journey back to simpler times, with a perfect balance of hearty oats, sweet raisins, and just a hint of warm spices. Baked to golden perfection, these cookies boast a chewy yet satisfyingly crisp exterior</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://images.unsplash.com/photo-1639385034038-63323aecd39c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D" class="card-img-top" alt="Service 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Jerk Cream Puffs</h5>
+                        <p class="card-text"></p>
+                        Indulge in the heavenly delight of our Cream Puffs, delicate choux pastry shells filled with luscious whipped cream or creamy custard. Each bite offers a symphony of textures, with the crisp outer shell giving way to a light and airy interior, perfectly complemented by the velvety smoothness of the cream filling. Whether enjoyed as a decadent treat
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section class="content-section" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01">First name</label>
+                        <input type="text" class="form-control" id="validationCustom01" required>
+                        <div class="invalid-feedback">
+                            Please enter a first name.
+                        </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom02">Last name</label>
+                        <input type="text" class="form-control" id="validationCustom02" required>
+                        <div class="invalid-feedback">
+                            Please enter a last name.
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom03">City</label>
+                        <input type="text" class="form-control" id="validationCustom03" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid city.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom04">State</label>
+                        <input type="text" class="form-control" id="validationCustom04" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid state.
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-3">
+                        <label for="validationCustom05">Zip</label>
+                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <div class="invalid-feedback">
+                            Please provide a valid zip.
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="btn-container">
+                    <button class="btn btn-black" type="submit">Submit form</button>
+
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div style="color: white;" class="container">
+            <div class="center">
+                <p>&copy; 2024 Fictional Company. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- Form validation script -->
+    <script>
+        // Example starter JavaScript for disabling form submissions if there are invalid fields
+        (function() {
+            'use strict';
+            window.addEventListener('load', function() {
+                // Fetch all the forms we want to apply custom Bootstrap validation styles to
+                var forms = document.getElementsByClassName('needs-validation');
+                // Loop over them and prevent submission
+                var validation = Array.prototype.filter.call(forms, function(form) {
+                    form.addEventListener('submit', function(event) {
+                        if (form.checkValidity() === false) {
+                            event.preventDefault();
+                            event.stopPropagation();
+                        }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            }, false);
+        })();
+    </script>
+</body>
+</html>
